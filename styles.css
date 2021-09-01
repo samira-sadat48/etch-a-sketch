@@ -2,13 +2,13 @@ body {
     text-align: center;
 }
 div {
-
+    
 }
 
 .grid-container {
     display: grid;
-    height: 320px;
-    width: 320px;
+    height: 600px;
+    width: 600px;
     border-style: solid;
     border-color: black;
 }

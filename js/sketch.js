@@ -30,8 +30,13 @@ function clearGrid(e)
 
     allCells.forEach(function(cell) 
     {
-        cell.style.backgroundColor = "white";
+        cell.remove();
     });
+    
+    //pop-up
+    const size = window.prompt("What size do you want your grid?", "16");
+    //resize grid
+    createGrid(size);
 }
 
 createGrid(DEFAULT_SIZE);
