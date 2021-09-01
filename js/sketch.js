@@ -2,6 +2,11 @@ const DEFAULT_SIZE = 16;
 
 const gridContainer = document.querySelector('.grid-container')
 
+function hoverCell(e)
+{
+    e.target.style.backgroundColor = 'black';
+}
+
 function createGrid(sizeOfGrid)
 {
     gridContainer.style.gridTemplateColumns = `repeat(${sizeOfGrid}, 1fr`;
@@ -11,6 +16,7 @@ function createGrid(sizeOfGrid)
     {
         const cell = document.createElement('div');
         cell.setAttribute('class','cell');
+        cell.addEventListener("mouseover", hoverCell, false);
         gridContainer.appendChild(cell);
     }
 }
