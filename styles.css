@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+}
+div {
+
+}
+
+.grid-container {
+    display: grid;
+    height: 320px;
+    width: 320px;
+    border-style: solid;
+    border-color: black;
+}
+
+.cell {
+    margin: 0;
+    padding: 0;
+}
