@@ -7,7 +7,7 @@ clearButton.addEventListener('click',clearGrid, false);
 
 function hoverCell(e)
 {
-    e.target.style.backgroundColor = 'black';
+    e.target.style.backgroundColor = "#2D46B9";
 }
 
 function createGrid(sizeOfGrid)
