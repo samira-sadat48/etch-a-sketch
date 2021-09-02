@@ -6,7 +6,7 @@ html,body{
 
 body {
     text-align: center;
-    background-color: #F8F8F8;
+    background-color: #E8F8F8;
 }
 
 header {
@@ -33,6 +33,7 @@ h1 {
     width: 400px;
     border-style: solid;
     border-color: #1E3163;
+    background-color: white;
 }
 
 .cell {

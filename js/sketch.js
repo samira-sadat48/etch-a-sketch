@@ -33,10 +33,9 @@ function clearGrid(e)
         cell.remove();
     });
     
-    //pop-up
     const size = window.prompt("What size do you want your grid?", "16");
-    //resize grid
     createGrid(size);
 }
 
+//Main Program
 createGrid(DEFAULT_SIZE);
